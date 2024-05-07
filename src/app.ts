@@ -1,3 +1,13 @@
+/**
+ * The TypeScript code defines an Express server that manages processes with logs and allows creating,
+ * retrieving, and deleting processes.
+ * @property {string} time - The `time` property in the `ProcessLog` type represents the timestamp when
+ * a log entry was created for a specific process. It stores the time in a string format.
+ * @property {string} message - The `message` property in the code snippet is a simple JSON object with
+ * a message key that contains a string of emojis. When a GET request is made to the root endpoint
+ * `'/'`, the server responds with this JSON object as a message.
+ */
+
 import express, { Request, Response } from 'express';
 import morgan from 'morgan';
 import helmet from 'helmet';
