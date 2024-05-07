@@ -1,4 +1,3 @@
-# Simple-Process-Management
 # Requirements Analysis
 
 The task involves developing a Proof-of-Concept (POC) for a process management application. The primary requirements are as follows:
